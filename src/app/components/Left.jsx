@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Profile from "../../../public/assets/profile.jpg"
 const Left = () => {
     return (
         <div>
@@ -9,9 +11,11 @@ const Left = () => {
                         </h1>
                         <br />
                         <br />
-                        <h1 className='text-4xl sm:text-7xl font-bold text-[#C4BFB7]'>
+                        <h1 className='text-4xl sm:text-7xl font-bold text-[#C4BFB7] flex flex-coloumn items-center'>
                             I'm Aditya
                         </h1>
+                        <br></br>
+                        <br></br>
                     </span>
                 </div>
             </div>

@@ -10,9 +10,6 @@ export const html = require("../../../public/assets/skills/html.png");
 export const js = require("../../../public/assets/skills/cpp.png");
 export const cpp = require("../../../public/assets/skills/js.png");
 export const postman = require("../../../public/assets/skills/postman.png");
-
-
-
 import Image from 'next/image'
 
 export default function Skills() {
@@ -20,7 +17,7 @@ export default function Skills() {
     <div className=''>
         <div className="max-lg:grid max-lg:grid-cols-4 max-lg:gap-2 grid grid-cols-8 gap-2">
             {skills.map((skill, index) => ( 
-                <div key={index} className="group relative inline-block  mt-4 mb-4 h-max w-max">
+                <div key={index} className="group relative inline-block mt-4 mb-4 h-max w-max">
                     <Image src={skill.src} alt={skill.tag} width={40}/>
                 </div>  
             ))}

@@ -2,6 +2,7 @@ import BEL from '../../../public/assets/download.png'
 import Image from 'next/image';
 import Skills from './Skills'
 import { RxGithubLogo, RxLinkedinLogo, RxTwitterLogo } from 'react-icons/rx'
+import Profile from '../../../public/assets/Profile.jpg'
 import Experience from './Experience';
 const Right = () => {
     return (
@@ -23,15 +24,18 @@ const Right = () => {
 
             <div className="lg:grid lg:grid-cols-1 content-center max-lg:flex max-lg:flex-col mb-10">
                 <h2 className="mb-2 tracking-wide break-normal font-bold">Skills</h2>
-                {/* <p className="mb-4 text-justify font-light">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex iure molestias officiis temporibus blanditiis placeat. Ipsum eius velit omnis exercitationem, quo assumenda recusandae iusto aliquam blanditiis nihil deleniti eum! Veritatis voluptatem soluta dolores, voluptas dolore deleniti cumque molestiae qui mollitia neque porro sequi eos natus aperiam, non rerum. Dolores aut sint quis dolor dignissimos consectetur itaque, impedit asperiores facilis ex!
-                </p> */}
                 <Skills className="mb-4"/>
             </div>
-
             <div className="lg:grid lg:grid-cols-1 content-center max-lg:flex max-lg:flex-col mb-10">
-                <h2 className="mb-2 tracking-wide break-normal font-bold">Experience</h2>
-                <Experience/>
+                <h2 className="mb-2 tracking-wide break-normal font-bold mb-4">Experience</h2>
+                <Experience logoSrc={BEL} companyName={"Bharat Electronics Limited"} role={"Intern"} duration={"June 2023 - July 2023"} />
+            </div>
+            <div className="lg:grid lg:grid-cols-1 content-center max-lg:flex max-lg:flex-col mb-10">
+                <h2 className="mb-2 tracking-wide break-normal font-bold">Contact</h2>
+                <div className="flex flex-row items-center">
+                    <Image src={Profile} alt="Picture" className="h-12 w-12 rounded-full mr-4 border border-2"/>
+                    <a href="mailto:adi247u@gmail.com">adi247u@gmail.com</a>
+                </div>
             </div>
         </div>
 
