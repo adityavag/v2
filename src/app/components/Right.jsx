@@ -1,8 +1,9 @@
+'use client'
 import BEL from '../../../public/assets/download.png'
 import Image from 'next/image';
 import Skills from './Skills'
+import Profile from "../../../public/assets/profile.jpg"
 import { RxGithubLogo, RxLinkedinLogo, RxTwitterLogo } from 'react-icons/rx'
-import Profile from '../../../public/assets/Profile.jpg'
 import Experience from './Experience';
 const Right = () => {
     return (
