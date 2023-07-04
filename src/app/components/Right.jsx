@@ -29,14 +29,7 @@ const Right = () => {
             </div>
             <div className="lg:grid lg:grid-cols-1 content-center max-lg:flex max-lg:flex-col mb-10">
                 <h2 className="mb-2 tracking-wide break-normal font-bold mb-4">Experience</h2>
-                <Experience logoSrc={BEL} companyName={"Bharat Electronics Limited"} role={"Intern"} duration={"June 2023 - July 2023"} />
-            </div>
-            <div className="lg:grid lg:grid-cols-1 content-center max-lg:flex max-lg:flex-col mb-10">
-                <h2 className="mb-2 tracking-wide break-normal font-bold">Contact</h2>
-                <div className="flex flex-row items-center">
-                    <Image src={Profile} alt="Picture" className="h-12 w-12 rounded-full mr-4 border border-2"/>
-                    <a href="mailto:adi247u@gmail.com">adi247u@gmail.com</a>
-                </div>
+                <Experience logoSrc={BEL} companyName={"Bharat Electronics Limited"} role={"Intern"} duration={"June 2023 - July 2023"} exp1={"Gained understanding of the operations and responsibilities of various teams through hands-on training in Development & Engineering Department."} exp2={"Leveraged my theoretical knowledge by actively applying it to real-world projects."}/>
             </div>
         </div>
 

@@ -16,6 +16,10 @@ const Left = () => {
                         </h1>
                         <br></br>
                         <br></br>
+                        <div className="flex flex-row items-center">
+                            <Image src={Profile} alt="Picture" className="h-28 w-28 rounded-full mr-4 border border-2" />
+                            <a href="mailto:adi247u@gmail.com" className="text-[#C4BFB7]">adi247u@gmail.com</a>
+                        </div>
                     </span>
                 </div>
             </div>
