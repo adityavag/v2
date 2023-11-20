@@ -10,10 +10,10 @@ export default function App() {
           <b>Aditya</b> Vardhan Agarwal
         </div>
         <div className="flex flex-row space-x-5">
-          <FaLinkedinIn className="hover:text-blue-500 hover:cursor-pointer" />
-          <FaGithub className="hover:text-blue-300 hover:cursor-pointer" />
-          <FaTwitter className="hover:text-blue-500 hover:cursor-pointer" />
-          <FaYoutube className="hover:text-red-600 hover:cursor-pointer" />
+          <FaLinkedinIn className="hover:cursor-pointer" />
+          <FaGithub className="hover:cursor-pointer" />
+          <FaTwitter className="hover:cursor-pointer" />
+          <FaYoutube className="hover:cursor-pointer" />
         </div>
       </div>
       <div>
@@ -25,7 +25,7 @@ export default function App() {
 
         {/* projects.txt */}
         <div className="font-bold text-xl">Projects</div>
-        <div className="flex flex-row space-x-4 max-lg:grid max-lg:grid-cols-1 max-lg:justify-center">
+        <div className="flex flex-row space-x-4 max-lg:grid max-lg:grid-cols-1 max-lg:justify-center max-lg:space-x-0">
           {/* <Card/> */}
           <Card title = "Web Watch Dog" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum tenetur quia nihil, repudiandae ipsum laborum expedita suscipit assumenda odio placeat sit eum."/>
 
