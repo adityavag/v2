@@ -1,7 +1,8 @@
-import { FaLinkedinIn, FaGithub, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaTwitter, FaYoutube, FaReact } from "react-icons/fa";
 import projects from "./assets/projects.json";
 import Card from "./components/Card";
-import image from "./assets/img.jpg"
+import stack from "./pages/stack";
+import { SiSpringboot } from "react-icons/si";
 export default function App() {
 
   return (
@@ -41,6 +42,7 @@ export default function App() {
 
         {/* projects.txt */}
         <div className="font-bold text-xl">Projects</div>
+        {/* <div className="flex flex-row space-x-4"> */}
         <div className="flex flex-row space-x-4 max-lg:grid max-lg:grid-cols-1 max-lg:justify-center max-lg:space-x-0">
           {/* <Card/> */}
           {projects.map(project => console.log(project.title))}
@@ -54,9 +56,12 @@ export default function App() {
             />
           ))}
           {/* <Card title = "Web Watch Dog" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum tenetur quia nihil, repudiandae ipsum laborum expedita suscipit assumenda odio placeat sit eum."/>
-
           <Card title = "RegExGrapher" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum tenetur quia nihil, repudiandae ipsum laborum expedita suscipit assumenda odio placeat sit eum."/> */}
         </div>
+        {/* <div>
+
+        </div> */}
+        {/* </div> */}
       </div>
     </div>
   )
