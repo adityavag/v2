@@ -1,4 +1,5 @@
 import { FaLinkedinIn, FaGithub, FaTwitter, FaYoutube } from "react-icons/fa";
+import projects from "./assets/projects.json";
 import Card from "./components/Card";
 
 export default function App() {
@@ -10,16 +11,16 @@ export default function App() {
           <b>Aditya</b> Vardhan Agarwal
         </div>
         <div className="flex flex-row space-x-5">
-          <FaLinkedinIn className="hover:cursor-pointer" />
-          <FaGithub className="hover:cursor-pointer" />
-          <FaTwitter className="hover:cursor-pointer" />
-          <FaYoutube className="hover:cursor-pointer" />
+          <a href="https://www.linkedin.com/in/adityacse/"><FaLinkedinIn className="hover:cursor-pointer" /></a>
+          <a href="https://github.com/in/adityavag/"><FaGithub className="hover:cursor-pointer" /></a>
+          <a href="https://twitter.com/aditya_vagarwal"><FaTwitter className="hover:cursor-pointer" /></a>
+          {/* <a href=""><FaYoutube className="hover:cursor-pointer" /></a> */}
         </div>
       </div>
       <div>
         {/* about.txt */}
         <div className="mt-8 mb-4">
-        I am currently pursuing a Computer Science undergraduate degree at SRM Institute of Science & Technology. Throughout my academic journey, I have acquired a solid understanding of programming languages such as C, C++, and Java. Additionally, I have gained practical experience in developing web applications. Currently, I am actively exploring the Spring Framework. Looking for intern roles in order to gain valuable industrial experience.
+          I am currently pursuing a Computer Science undergraduate degree at SRM Institute of Science & Technology. Throughout my academic journey, I have acquired a solid understanding of programming languages such as C, C++, and Java. Additionally, I have gained practical experience in developing web applications. Currently, I am actively exploring the Spring Framework. Looking for intern roles in order to gain valuable industrial experience.
         </div>
         {/* exp.txt */}
 
@@ -27,9 +28,19 @@ export default function App() {
         <div className="font-bold text-xl">Projects</div>
         <div className="flex flex-row space-x-4 max-lg:grid max-lg:grid-cols-1 max-lg:justify-center max-lg:space-x-0">
           {/* <Card/> */}
-          <Card title = "Web Watch Dog" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum tenetur quia nihil, repudiandae ipsum laborum expedita suscipit assumenda odio placeat sit eum."/>
+          {projects.map(project => console.log(project.title))}
+          {projects.map(project => (
+            <Card
+              key={project.title}
+              title={project.title}
+              description={project.description}
+              link={project.link}
+              tags={project.tags}
+            />
+          ))}
+          {/* <Card title = "Web Watch Dog" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum tenetur quia nihil, repudiandae ipsum laborum expedita suscipit assumenda odio placeat sit eum."/>
 
-          <Card title = "RegExGrapher" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum tenetur quia nihil, repudiandae ipsum laborum expedita suscipit assumenda odio placeat sit eum."/>
+          <Card title = "RegExGrapher" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum tenetur quia nihil, repudiandae ipsum laborum expedita suscipit assumenda odio placeat sit eum."/> */}
         </div>
       </div>
     </div>
