@@ -1,0 +1,15 @@
+[
+    {
+      "title": "Web Watch Dog",
+      "description": "Developed a Web Monitoring Tool that reports the website’s status whether it is up or down.",
+      "link" : "#",
+      "tags" : ["Spring Boot", "React"]
+    },
+    {
+      "title": "RegExGrapher", 
+      "description": "RegExGrapher simplifies complex Regular Expressions by converting them into Finite Automata.",
+      "link": "https://github.com/adityavag/RegExGrapher",
+      "tags" : ["Electron", "jQuery"]
+
+    }
+  ]
