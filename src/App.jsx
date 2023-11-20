@@ -1,4 +1,5 @@
 import { FaLinkedinIn, FaGithub, FaTwitter, FaYoutube } from "react-icons/fa";
+import Card from "./components/Card";
 
 export default function App() {
 
@@ -15,11 +16,21 @@ export default function App() {
           <FaYoutube className="hover:text-red-600 hover:cursor-pointer" />
         </div>
       </div>
-
       <div>
         {/* about.txt */}
+        <div className="mt-8 mb-4">
+        I am currently pursuing a Computer Science undergraduate degree at SRM Institute of Science & Technology. Throughout my academic journey, I have acquired a solid understanding of programming languages such as C, C++, and Java. Additionally, I have gained practical experience in developing web applications. Currently, I am actively exploring the Spring Framework. Looking for intern roles in order to gain valuable industrial experience.
+        </div>
         {/* exp.txt */}
+
         {/* projects.txt */}
+        <div className="font-bold text-xl">Projects</div>
+        <div className="flex flex-row space-x-4">
+          {/* <Card/> */}
+          <Card title = "Web Watch Dog" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum tenetur quia nihil, repudiandae ipsum laborum expedita suscipit assumenda odio placeat sit eum."/>
+
+          <Card title = "RegExGrapher" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum tenetur quia nihil, repudiandae ipsum laborum expedita suscipit assumenda odio placeat sit eum."/>
+        </div>
       </div>
     </div>
   )
