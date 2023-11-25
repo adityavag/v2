@@ -6,7 +6,7 @@ import { SiSpringboot } from "react-icons/si";
 export default function App() {
 
   return (
-    <div className="bg-[#151515] min-h-screen p-16 font-code text-white lg:px-64">
+    <div className="bg-[#151515] min-h-screen p-16 text-white lg:px-64">
       <div>
         <div>
           <div className="text-3xl mb-4">
@@ -24,9 +24,8 @@ export default function App() {
             /> */}
             <div className="mt-4 mb-4 leading-relaxed">
               I am currently pursuing a Computer Science undergraduate degree at SRM Institute of Science & Technology. Throughout my academic journey, I have acquired a solid understanding of programming languages such as C, C++, and Java.
-              Additionally, I have gained practical experience in developing web applications.
-              I've contributed to Bhabha Atomic Resarch Centre - Department of Atomic Energy (DAE) sponsored project.
-              I value leaning and aspire to bring value-creating transformation in tech-sphere.
+              Additionally, I have gained practical experience in developing web applications levearging industry popular frameworks like React and Spring Boot.
+              I value leaning and aspire to bring value-creating transformation in tech sphere.
               Currently I'am looking for intern roles in order to gain valuable industrial experience.
             </div>
           </div>
