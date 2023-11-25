@@ -14,7 +14,7 @@ export default function App() {
           </div>
           <div className="flex flex-row space-x-5">
           <a href="https://www.linkedin.com/in/adityacse/"><FaLinkedinIn className="hover:cursor-pointer" /></a>
-          <a href="https://github.com/in/adityavag/"><FaGithub className="hover:cursor-pointer" /></a>
+          <a href="https://github.com/adityavag/"><FaGithub className="hover:cursor-pointer" /></a>
           <a href="https://twitter.com/aditya_vagarwal"><FaTwitter className="hover:cursor-pointer" /></a>
         </div>
           <div className="flex flex-row-reverse max-lg:grid max-lg:grid-cols-1">
