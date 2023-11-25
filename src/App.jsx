@@ -23,10 +23,7 @@ export default function App() {
               className="max-w-sm rounded-lg"
             /> */}
             <div className="mt-4 mb-4 leading-relaxed">
-              I am currently pursuing a Computer Science undergraduate degree at SRM Institute of Science & Technology. Throughout my academic journey, I have acquired a solid understanding of programming languages such as C, C++, and Java.
-              Additionally, I have gained practical experience in developing web applications levearging industry popular frameworks like React and Spring Boot.
-              I value leaning and aspire to bring value-creating transformation in tech sphere.
-              Currently I'am looking for intern roles in order to gain valuable industrial experience.
+            I am a third year Undergraduate Student pursuing bachelor's in Computer Science at SRM Institute of Science & Technology. Throughout my academic journey, I have acquired a solid understanding of programming languages such as C, C++, and Java. Additionally, I have gained practical experience in developing web applications levearging industry popular frameworks like React and Spring Boot. I value leaning and aspire to bring value-creating transformation in tech-sphere. Currently I'am looking for intern roles in order to gain valuable industrial experience.
             </div>
           </div>
         </div>
