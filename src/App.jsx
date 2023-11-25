@@ -6,7 +6,7 @@ import { SiSpringboot } from "react-icons/si";
 export default function App() {
 
   return (
-    <div className="bg-[#151515] min-h-screen p-16 font-code text-white">
+    <div className="bg-[#151515] min-h-screen p-16 font-code text-white lg:px-64">
       <div>
         <div>
           <div className="text-3xl mb-4">
@@ -43,7 +43,8 @@ export default function App() {
         {/* projects.txt */}
         <div className="font-bold text-xl">Projects</div>
         {/* <div className="flex flex-row space-x-4"> */}
-        <div className="flex flex-row space-x-4 max-lg:grid max-lg:grid-cols-1 max-lg:justify-center max-lg:space-x-0">
+        {/* <div className="flex flex-row space-x-4 max-lg:grid max-lg:grid-cols-1 max-lg:justify-center max-lg:space-x-0"> */}
+        <div className="grid grid-cols-2 gap-5 max-md:grid-cols-1">
           {/* <Card/> */}
           {projects.map(project => console.log(project.title))}
           {projects.map(project => (
