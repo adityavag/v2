@@ -6,7 +6,7 @@ import { SiSpringboot } from "react-icons/si";
 export default function App() {
 
   return (
-    <div className="bg-[#151515] min-h-screen p-16 font-code text-white">
+    <div className="bg-[#151515] min-h-screen p-16 text-white lg:px-64">
       <div>
         <div>
           <div className="text-3xl mb-4">
@@ -14,7 +14,7 @@ export default function App() {
           </div>
           <div className="flex flex-row space-x-5">
           <a href="https://www.linkedin.com/in/adityacse/"><FaLinkedinIn className="hover:cursor-pointer" /></a>
-          <a href="https://github.com/in/adityavag/"><FaGithub className="hover:cursor-pointer" /></a>
+          <a href="https://github.com/adityavag/"><FaGithub className="hover:cursor-pointer" /></a>
           <a href="https://twitter.com/aditya_vagarwal"><FaTwitter className="hover:cursor-pointer" /></a>
         </div>
           <div className="flex flex-row-reverse max-lg:grid max-lg:grid-cols-1">
@@ -39,7 +39,8 @@ export default function App() {
         {/* projects.txt */}
         <div className="font-bold text-xl">Projects</div>
         {/* <div className="flex flex-row space-x-4"> */}
-        <div className="flex flex-row space-x-4 max-lg:grid max-lg:grid-cols-1 max-lg:justify-center max-lg:space-x-0">
+        {/* <div className="flex flex-row space-x-4 max-lg:grid max-lg:grid-cols-1 max-lg:justify-center max-lg:space-x-0"> */}
+        <div className="grid grid-cols-2 gap-5 max-md:grid-cols-1">
           {/* <Card/> */}
           {projects.map(project => console.log(project.title))}
           {projects.map(project => (
