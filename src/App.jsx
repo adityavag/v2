@@ -18,10 +18,6 @@ export default function App() {
           <a href="https://twitter.com/aditya_vagarwal"><FaTwitter className="hover:cursor-pointer" /></a>
         </div>
           <div className="flex flex-row-reverse max-lg:grid max-lg:grid-cols-1">
-            {/* <img
-              src={image}
-              className="max-w-sm rounded-lg"
-            /> */}
             <div className="mt-4 mb-4 leading-relaxed">
               I am currently pursuing a Computer Science undergraduate degree at SRM Institute of Science & Technology. Throughout my academic journey, I have acquired a solid understanding of programming languages such as C, C++, and Java.
               Additionally, I have gained practical experience in developing web applications levearging industry popular frameworks like React and Spring Boot.
@@ -33,18 +29,8 @@ export default function App() {
 
       </div>
       <div>
-        {/* about.txt */}
-        {/* <div className="mt-8 mb-4">
-          I am currently pursuing a Computer Science undergraduate degree at SRM Institute of Science & Technology. Throughout my academic journey, I have acquired a solid understanding of programming languages such as C, C++, and Java. Additionally, I have gained practical experience in developing web applications. Currently, I am actively exploring the Spring Framework. Looking for intern roles in order to gain valuable industrial experience.
-        </div> */}
-        {/* exp.txt */}
-
-        {/* projects.txt */}
         <div className="font-bold text-xl">Projects</div>
-        {/* <div className="flex flex-row space-x-4"> */}
-        {/* <div className="flex flex-row space-x-4 max-lg:grid max-lg:grid-cols-1 max-lg:justify-center max-lg:space-x-0"> */}
         <div className="grid grid-cols-2 gap-5 max-md:grid-cols-1">
-          {/* <Card/> */}
           {projects.map(project => console.log(project.title))}
           {projects.map(project => (
             <Card
@@ -55,13 +41,7 @@ export default function App() {
               tags={project.tags}
             />
           ))}
-          {/* <Card title = "Web Watch Dog" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum tenetur quia nihil, repudiandae ipsum laborum expedita suscipit assumenda odio placeat sit eum."/>
-          <Card title = "RegExGrapher" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum tenetur quia nihil, repudiandae ipsum laborum expedita suscipit assumenda odio placeat sit eum."/> */}
         </div>
-        {/* <div>
-
-        </div> */}
-        {/* </div> */}
       </div>
     </div>
   )
