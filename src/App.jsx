@@ -1,8 +1,7 @@
 import { FaLinkedinIn, FaGithub, FaTwitter, FaYoutube, FaReact } from "react-icons/fa";
 import projects from "./assets/projects.json";
 import Card from "./components/Card";
-import stack from "./pages/stack";
-import { SiSpringboot } from "react-icons/si";
+import Skill from "./components/Skill";
 export default function App() {
 
   return (
@@ -13,13 +12,13 @@ export default function App() {
             <b>Aditya</b> Vardhan Agarwal
           </div>
           <div className="flex flex-row space-x-5">
-          <a href="https://www.linkedin.com/in/adityacse/"><FaLinkedinIn className="hover:cursor-pointer" /></a>
-          <a href="https://github.com/adityavag/"><FaGithub className="hover:cursor-pointer" /></a>
-          <a href="https://twitter.com/aditya_vagarwal"><FaTwitter className="hover:cursor-pointer" /></a>
-        </div>
+            <a href="https://www.linkedin.com/in/adityacse/"><FaLinkedinIn className="hover:cursor-pointer" /></a>
+            <a href="https://github.com/adityavag/"><FaGithub className="hover:cursor-pointer" /></a>
+            <a href="https://twitter.com/aditya_vagarwal"><FaTwitter className="hover:cursor-pointer" /></a>
+          </div>
           <div className="flex flex-row-reverse max-lg:grid max-lg:grid-cols-1">
             <div className="mt-4 mb-4 leading-relaxed">
-            I am a third year Undergraduate Student pursuing bachelor's in Computer Science at SRM Institute of Science & Technology. Throughout my academic journey, I have acquired a solid understanding of programming languages such as C, C++, and Java. Additionally, I have gained practical experience in developing web applications levearging industry popular frameworks like React and Spring Boot. I value leaning and aspire to bring value-creating transformation in tech-sphere. Currently I'am looking for intern roles in order to gain valuable industrial experience.
+              I am a third year Undergraduate Student pursuing bachelor's in Computer Science at SRM Institute of Science & Technology. Throughout my academic journey, I have acquired a solid understanding of programming languages such as C, C++, and Java. Additionally, I have gained practical experience in developing web applications levearging industry popular frameworks like React and Spring Boot. I value leaning and aspire to bring value-creating transformation in tech-sphere. Currently I'am looking for intern roles in order to gain valuable industrial experience.
             </div>
           </div>
         </div>
@@ -38,6 +37,13 @@ export default function App() {
               tags={project.tags}
             />
           ))}
+        </div>
+      </div>
+
+      <div>
+        <div className="font-bold text-xl mt-8">Skills</div>
+        <div className="mt-6">
+          <Skill />
         </div>
       </div>
     </div>
