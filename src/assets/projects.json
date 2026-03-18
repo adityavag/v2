@@ -1,15 +1,14 @@
 [
-    {
-      "title": "Web Watch Dog",
-      "description": "Developed a Web Monitoring Tool that reports the website’s status whether it is up or down.",
-      "link" : "#",
-      "tags" : ["Spring Boot", "React"]
-    },
-    {
-      "title": "RegExGrapher", 
-      "description": "RegExGrapher simplifies complex Regular Expressions by converting them into Finite Automata.",
-      "link": "https://github.com/adityavag/RegExGrapher",
-      "tags" : ["Electron", "jQuery"]
-
-    }
-  ]
+  {
+    "title": "Flag Forge",
+    "description": "Built a feature flag and experimentation backend with deterministic rollout logic, secure admin APIs, and exposure event tracking.",
+    "link": "https://github.com/adityavag/flag-forge",
+    "tags": ["Spring Boot", "Java 17", "PostgreSQL", "Redis", "JWT", "Docker"]
+  },
+  {
+    "title": "Multi Currency Wallet",
+    "description": "Developed a multi-currency REST API for wallet management and cross-currency transfers with secure JWT auth and transaction safety.",
+    "link": "https://github.com/adityavag/multicurrency-wallet",
+    "tags": ["Spring Boot", "Java 17", "MySQL", "Spring Security", "BCrypt", "REST API"]
+  }
+]
